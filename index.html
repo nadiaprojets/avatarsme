@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--LIENS CSS-->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Manrope:wght@200&display=swap"
+            rel="stylesheet">
+        
+        <title>Ma Collection</title>
+    </head>
+
+
+    <body>
+        <!--DÉBUT DE L'ENTÊTE-->
+        <header>
+            <div class="container">
+        
+                <!--LOGO-->
+                <div class="logo" id="acceuil">
+                    <img src="images/avatarsme.png" alt="Logo Avatars">
+                </div>
+        
+                <!--BARRE DE NAVIGATION-->
+                <nav>
+                    <ul>
+                        <li id="active"><a href="#accueil">Accueil</a></li>
+                        <li><a href="#avatars">Avatars</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--FIN DE LA BARRE DE NAVIGATION-->
+        </header>
+        <!--FIN DE L'ENTÊTE-->
+
+
+        <!--DÉBUT DE LA SECTION-->
+        <section id="section" class="container">
+
+            
+        <!--TITRE PRINCIPAL DE LA PAGE-->
+                <div class="container1" id="avatars">
+                    <h1>Ma galerie d'Avatars</h1><br>
+                </div>
+            
+            
+                <div class="container2 animation">
+
+                
+                    <div class="avatar">
+
+                        <p class="image">
+                            <img src="images/nadia.png" alt="Logo Nadia Rouge">
+                            <span>n°1 - Logo Nadia Rouge</span>
+                        </p>
+                    
+                    </div>
+        
+                    
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/nadiaw.png" alt="Logo Nadia Web">
+                            <span>n°2 - Logo Nadia Web</span>
+                        </p>
+                    </div>
+        
+                    
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/nadiac.png" alt="Logo Nadia">
+                            <span>n°3 - Logo Nadia</span>
+                        </p>
+                    </div>
+
+
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/luckystyle.png" alt="Logo Lucky Style">
+                            <span>n°4 - Logo Lucky Style</span>
+                        </p>
+                    </div>
+
+
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/nz.png" alt="Logo NZ">
+                            <span>n°5 - Logo NZ</span>
+                        </p>
+                    </div>
+
+
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/picness.png" alt="Logo Pic Ness">
+                            <span>n°6 - Logo Pic Ness</span>
+                        </p>
+                    </div>
+
+
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/printdigitalproductsystem.png" alt="Logo Print Digital Product System">
+                            <span>n°7 - Logo Print Digital</span>
+                        </p>
+                    </div>
+                    
+
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/sweetgame.png" alt="Sweet Game">
+                            <span>n°8 - Sweet Game</span>
+                        </p>
+                    </div>
+                    
+                    
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/ness.png" alt="Logo Ness Production">
+                            <span>n°9 - Logo Ness</span>
+                        </p>
+                    </div>
+
+
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/avatarlight.png" alt="Logo Avatar Light">
+                            <span>n°10 - Logo Avatar Light</span>
+                        </p>
+                    </div>
+                    
+                    
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/mbidart.png" alt="Logo Mbidart">
+                            <span>n°11 - Logo Mbidart</span>
+                        </p>
+                    </div>
+                    
+                    
+                    <div class="avatar">
+                        <p class="image">
+                            <img src="images/musicness.png" alt="Logo Music Ness">
+                            <span>n°12 - Logo Music Ness</span>
+                        </p>
+                    </div>
+                
+                </div>
+
+                    <div class="container4">
+                        <div class="video">
+                            <iframe width="700" height="393" src="https://www.youtube.com/embed/rbtQ4yWgO9I" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                    
+                        </div>
+                    </div>
+        </section>
+        <!--FIN DE LA SECTION-->
+
+        <!--DÉBUT DU FORMULAIRE DE CONTACT-->
+        <section id="section" class="container">
+            <div class="container3" id="contact">
+                <form action="action_page.php">
+            
+                    <label for="fname">Nom</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Nom">
+            
+                    <label for="lname">Prénom</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Prénom">
+            
+                    <label for="country">Pays</label>
+                    <select id="country" name="country">
+                        <option value="france">France</option>
+                        <option value="belgique">Belgique</option>
+                        <option value="suisse">Suisse</option>
+                        <option value="allemagne">Allemagne</option>
+                        <option value="italie">Italie</option>
+                        <option value="etats-unis">Etats Unis</option>
+                        <option value="autre">Autre</option>
+                    </select>
+            
+                    <label for="subject">Quelle est votre demande ?</label>
+                    <textarea id="subject" name="subject" placeholder="Votre texte ici..." style="height:200px"></textarea>
+                    
+                    <input type="submit" href="" value="Envoyez">
+            
+                </form>
+            </div>
+        </section>
+        <!--FIN DU FORMULAIRE DE CONTACT-->
+  
+        
+        
+        <!--DÉBUT DU PIED DE PAGE-->
+        <footer>
+            <div class="container">
+                <div id="footer-links">
+                    <ul>
+                        <li>©2020 Diginess - Tous droits réservés</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!--FIN DU PIED DE PAGE-->
+    </body>
+</html>
