@@ -4,7 +4,7 @@ Il s'agit d'un mini-site vitrine pour montrer quelques unes de mes créations de
 
 ---
 
-#### Voir le projet :
+### Voir le projet :
 
 * [Mini-site Avatarsme](https://nadiaprojets.github.io/avatarsme/) 
 
